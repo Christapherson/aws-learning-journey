@@ -3,7 +3,7 @@
 My 90-day intensive program to transition from IT Support Engineer to Solutions Architect.
 
 ## 📅 Timeline
-- **Start Date:** October 11, 2024
+- **Start Date:** October 13, 2025
 - **Target Completion:** January 7, 2025
 - **Goal:** Solutions Architect or TAM role
 
