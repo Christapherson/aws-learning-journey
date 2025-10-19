@@ -105,7 +105,7 @@ I'm documenting my transition from IT Support Engineer to Solutions Architect to
 ## 📬 Connect
 
 - **GitHub:** [Christapherson](https://github.com/Christapherson)
-- **LinkedIn:** [Connect with me](https://linkedin.com/in/christapherson) *(update with your actual LinkedIn)*
+- **LinkedIn:** [Connect with me](https://linkedin.com/in/christapherson)
 
 ---
 
