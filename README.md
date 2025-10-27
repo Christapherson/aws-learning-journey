@@ -1,41 +1,62 @@
-# 🚀 AWS Learning Journey
+# 🚀 AWS Learning Journey: IT Support → Solutions Architect
 
 ![AWS Cloud Practitioner](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![AWS Solutions Architect Associate](https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![AWS AI Practitioner](https://img.shields.io/badge/AWS-AI%20Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![AWS Machine Learning Engineer](https://img.shields.io/badge/AWS-ML%20Engineer%20Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![AWS Machine Learning Associate](https://img.shields.io/badge/AWS-ML%20Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-My 90-day intensive program to transition from IT Support Engineer to Solutions Architect.
+My intensive program to transition from IT Support Engineer ($70K) to Solutions Architect or Technical Account Manager ($110-130K).
 
-## 📅 Timeline
+## 📅 Timeline & Strategy
 
-- **Start Date:** October 13, 2025
-- **Target Completion:** January 7, 2026
-- **Goal:** Solutions Architect or TAM role ($110-130k)
-- **Current Status:** Day 6 of 90 - Week 1 Complete ✅
+**Started:** October 13, 2025  
+**Current Status:** Day 14 of 126  
+**Target Role:** Solutions Architect L5 or TAM L4  
+
+### Three-Phase Approach
+
+**Phase 1: Foundations (Days 1-42) - IN PROGRESS** ⚡
+- Hands-on mastery of SA Associate-level services
+- Portfolio projects demonstrating core competencies
+- Python + boto3 automation fundamentals
+- Weekly mentor reviews with Senior AI Solutions Architect
+
+**Phase 2: SA Professional Certification (Days 43-98)**
+- 10-12 week intensive SA Pro exam prep
+- Multi-account architectures, advanced networking, migration strategies
+- Adrian Cantrill SA Pro course + Jon Bonso practice exams
+- Target exam: Late January / Early February 2026
+
+**Phase 3: Job Search (Days 99-126)**
+- TAM L4 applications with SA Pro certification
+- Portfolio polished and production-ready
+- Interview prep: behavioral + technical
+- Target start date: Spring 2026
 
 ## 📊 Progress Tracker
 
-- **Certifications:** 4/4 AWS Associate-level certs ✅
-- **Projects Completed:** 1/10 ✅
-- **GitHub Commits:** Daily streak active 🔥
-- **Next Cert Target:** AWS Certified Developer - Associate (December 2025)
+- **Portfolio Projects:** 1/10 completed 🎯
+- **Certifications:** 4/5 (SA Pro target: Feb 2026)
+- **GitHub Streak:** 14 days 🔥
+- **Phase 1 Completion:** 33% (14/42 days)
 
-**Last Updated:** October 18, 2025
+**Last Updated:** October 26, 2025
 
-## 🏗️ Recent Projects
+## 🏗️ Completed Portfolio Project
 
-### Week 1 Capstone: S3 + CloudFront Static Website
-**[Live Demo](https://d3sow6jxmgyxlc.cloudfront.net/)** | [Documentation](2025-10-18.md)
+### Professional Portfolio Website with Global CDN ✅
+**[Live Demo](https://d3sow6jxmgyxlc.cloudfront.net/)** | [Day 6 Documentation](2025-10-18.md)
 
-- Built production-grade static website infrastructure
-- Configured S3 bucket for static website hosting
-- Implemented CloudFront CDN for global content delivery
-- Secured with HTTPS using CloudFront SSL certificate
-- Configured IAM bucket policies for public read access
+Production-grade static website infrastructure with CloudFront CDN demonstrating Solutions Architect capabilities.
 
-**Tech Stack:** Amazon S3, CloudFront, IAM
+**What It Demonstrates:**
+- Global content delivery architecture
+- S3 website hosting configuration
+- CloudFront CDN setup with edge caching
+- IAM security policies
+- HTTPS/SSL certificate management
 
+**Tech Stack:** Amazon S3, CloudFront, IAM  
 **Architecture:**
 ```
 ┌─────────┐      ┌──────────────┐      ┌────────────┐
@@ -45,62 +66,76 @@ My 90-day intensive program to transition from IT Support Engineer to Solutions 
    HTTPS              Cache                  HTTP
 ```
 
-**Build Time:** 30 minutes  
-**Key Learning:** Dual-layer S3 permissions (public access settings + bucket policy)
+**Business Value:** Reduced latency for global users, 99.99% availability SLA, cost-effective hosting
 
-## 📚 What I'm Learning This Week
+## 📚 Current Learning Focus (Week 3)
 
-**Week 2 Focus:** EC2 and VPC Fundamentals
-- Launching and managing EC2 instances
-- SSH access and remote server management
-- Security groups and network access control
-- Public vs private subnet architecture
-- Building web servers on EC2
+**This Week:** Python automation & AWS SDK
+- boto3 for AWS service automation
+- Lambda function fundamentals
+- DynamoDB NoSQL database basics
+- Infrastructure as Code concepts
 
-## 🗓️ Planned Projects
+**Recently Completed:**
+- ✅ VPC networking & subnets
+- ✅ Security Groups vs NACLs (stateful vs stateless)
+- ✅ EC2 instances & SSH access
+- ✅ IAM Roles for service-to-service auth
 
-### Week 1-2: Foundation
-- [x] Static website on S3 + CloudFront
-- [ ] EC2 web server deployment
-- [ ] VPC and networking basics
+## 🎯 Upcoming Portfolio Projects
 
-### Week 3-4: Serverless
-- [ ] URL shortener (Lambda + DynamoDB)
-- [ ] Image resizer (Lambda + S3)
-- [ ] REST API with API Gateway
+### Projects 2-3: Serverless Applications (Weeks 4-5)
+- [ ] URL Shortener (Lambda + DynamoDB + API Gateway)
+- [ ] Automated Image Processor (S3 events + Lambda + Rekognition)
 
-### Week 5-6: Advanced Architecture
-- [ ] EC2 Auto Scaling setup
-- [ ] Multi-tier application with RDS
-- [ ] Load balancing with ALB
+**Demonstrates:** Event-driven architecture, serverless computing, NoSQL design, REST API development
 
-### Week 7-8: Automation
-- [ ] Python boto3 automation scripts
-- [ ] AWS CLI scripting
-- [ ] Infrastructure as Code
+### Projects 4-5: Multi-Tier Architecture (Weeks 6-7)
+- [ ] High-Availability Web App (ALB + Auto Scaling + RDS Multi-AZ)
+- [ ] CI/CD Pipeline (CodePipeline + CodeBuild + CloudFormation)
 
-### Week 9-10: Integration
-- [ ] CI/CD pipeline
-- [ ] Full-stack serverless application
-- [ ] Multi-service integration project
+**Demonstrates:** Load balancing, auto scaling, database HA, infrastructure as code, DevOps practices
 
-### Week 11-12: Capstone
-- [ ] Complex real-world application
-- [ ] Complete architecture documentation
-- [ ] Portfolio presentation ready
+### Projects 6-7: Advanced Integration (Weeks 8-9)
+- [ ] Multi-Account Organization Setup (AWS Organizations + Control Tower)
+- [ ] Hybrid Networking Architecture (Transit Gateway + Direct Connect simulation)
 
-## 🛠️ Resources
+**Demonstrates:** Enterprise architecture, multi-account security, advanced networking, governance
 
-- [AWS Free Tier](https://aws.amazon.com/free/)
-- [boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
-- [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/)
-- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+### Projects 8-9: Security & Optimization (Weeks 10-11)
+- [ ] Secure Data Pipeline (KMS encryption + CloudTrail + GuardDuty)
+- [ ] Cost Optimization Dashboard (Cost Explorer API + Lambda + CloudWatch)
+
+**Demonstrates:** Security best practices, compliance, cost management, monitoring
+
+### Project 10: Capstone (Week 12)
+- [ ] Full-Stack Serverless Application with Complete Documentation
+
+**Demonstrates:** All SA competencies integrated - architecture design, security, scalability, cost optimization, documentation
 
 ## 💡 Why This Journey?
 
-I'm documenting my transition from IT Support Engineer to Solutions Architect to build a portfolio of real AWS projects. Theory and certifications open doors, but hands-on building gets you through them. Every project here is production-grade infrastructure deployed on AWS, not tutorials or simulations.
+I'm documenting my transition from IT Support Engineer to Solutions Architect to build a portfolio of real AWS projects. Theory and certifications open doors, but hands-on building gets you through them. 
 
-**The Goal:** Land an SA or TAM role making $110-130k by demonstrating I can both architect solutions AND build them.
+**The Goal:** Land an SA L5 or TAM L4 role by demonstrating I can architect solutions, build them, and communicate technical decisions to stakeholders.
+
+**Current Role:** IT Support Engineer at Amazon ($70K/year)  
+**Target Role:** Solutions Architect / TAM ($110-130K)  
+**Personal Motivation:** Financial security to propose to my girlfriend and buy our first house together
+
+## 🛠️ Study Materials & Resources
+
+**Video Courses:**
+- Adrian Cantrill (SA Pro - 70 hours with hands-on demos)
+- Stephane Maarek (Udemy courses for breadth)
+
+**Practice Exams:**
+- Jon Bonso / Tutorials Dojo (industry standard)
+
+**AWS Documentation:**
+- [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/)
+- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+- [boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 
 ## 📬 Connect
 
