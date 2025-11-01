@@ -45,7 +45,7 @@ My intensive program to transition from IT Support Engineer ($70K) to Solutions 
 ## 🏗️ Completed Portfolio Projects
 
 ### Professional Portfolio Website with Global CDN ✅
-**[Live Demo](https://d3sow6jxmgyxlc.cloudfront.net/)** | [Day 6 Documentation](2025-10-18.md)
+**[Live Demo](https://d3sow6jxmgyxlc.cloudfront.net/index.html)** | [Day 6 Documentation](2025-10-18.md)
 
 Production-grade static website infrastructure with CloudFront CDN demonstrating Solutions Architect capabilities.
 
