@@ -69,7 +69,7 @@ Production-grade static website infrastructure with CloudFront CDN demonstrating
 **Business Value:** Reduced latency for global users, 99.99% availability SLA, cost-effective hosting
 
 ### Serverless URL Shortener API ✅
-**[Live API](https://3xoo2ucyxk.execute-api.us-east-2.amazonaws.com/prod)** | **[Case Study](./day-17-dynamodb-lambda/PROJECT-CASE-STUDY.md)** | **[Architecture Diagram](./day-17-dynamodb-lambda/images/url-shortener-architecture.png)** | [Days 17-19 Documentation](2025-10-30.md)
+**[Live API](https://3xoo2ucyxk.execute-api.us-east-2.amazonaws.com/prod)** | **[Case Study](PROJECT-2-CASE-STUDY.md)** | **[Architecture Diagram](images/URL-Shortener-Architecture.png)** | [Days 17-19 Documentation](2025-10-30.md)
 
 Production-grade serverless API for URL shortening with click analytics and automatic scaling.
 
