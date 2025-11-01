@@ -10,7 +10,7 @@ My intensive program to transition from IT Support Engineer ($70K) to Solutions 
 ## 📅 Timeline & Strategy
 
 **Started:** October 13, 2025  
-**Current Status:** Day 14 of 126  
+**Current Status:** Day 19 of 126  
 **Target Role:** Solutions Architect L5 or TAM L4  
 
 ### Three-Phase Approach
@@ -35,14 +35,14 @@ My intensive program to transition from IT Support Engineer ($70K) to Solutions 
 
 ## 📊 Progress Tracker
 
-- **Portfolio Projects:** 1/10 completed 🎯
+- **Portfolio Projects:** 2/10 completed 🎯
 - **Certifications:** 4/5 (SA Pro target: Feb 2026)
-- **GitHub Streak:** 14 days 🔥
-- **Phase 1 Completion:** 33% (14/42 days)
+- **GitHub Streak:** 19 days 🔥
+- **Phase 1 Completion:** 45% (19/42 days)
 
-**Last Updated:** October 26, 2025
+**Last Updated:** October 31, 2025
 
-## 🏗️ Completed Portfolio Project
+## 🏗️ Completed Portfolio Projects
 
 ### Professional Portfolio Website with Global CDN ✅
 **[Live Demo](https://d3sow6jxmgyxlc.cloudfront.net/)** | [Day 6 Documentation](2025-10-18.md)
@@ -68,6 +68,36 @@ Production-grade static website infrastructure with CloudFront CDN demonstrating
 
 **Business Value:** Reduced latency for global users, 99.99% availability SLA, cost-effective hosting
 
+### Serverless URL Shortener API ✅
+**[Live API](https://3xoo2ucyxk.execute-api.us-east-2.amazonaws.com/prod)** | **[Case Study](./day-17-dynamodb-lambda/PROJECT-CASE-STUDY.md)** | **[Architecture Diagram](./day-17-dynamodb-lambda/images/url-shortener-architecture.png)** | [Days 17-19 Documentation](2025-10-30.md)
+
+Production-grade serverless API for URL shortening with click analytics and automatic scaling.
+
+**What It Demonstrates:**
+- Serverless architecture design (Lambda + DynamoDB + API Gateway)
+- Event-driven computing and auto-scaling
+- NoSQL database partition key design for single-digit ms latency
+- REST API development with proper error handling
+- Cost optimization (99.6% cheaper than commercial solutions)
+
+**Tech Stack:** AWS Lambda, DynamoDB, API Gateway, IAM  
+**Architecture:**
+```
+┌──────────┐   POST/GET   ┌──────────────┐   Invoke   ┌────────────┐
+│  User/   │────────────> │ API Gateway  │──────────> │  Lambda    │
+│ Browser  │              │  REST API    │            │ Functions  │
+└──────────┘              └──────────────┘            └────────────┘
+                                                             │
+                                                             ▼
+                                                      ┌────────────┐
+                                                      │  DynamoDB  │
+                                                      │   Table    │
+                                                      └────────────┘
+```
+
+**Performance:** <500ms latency, 1,000 concurrent requests supported  
+**Cost:** ~$0.82/month for 1,000 daily requests
+
 ## 📚 Current Learning Focus (Week 3)
 
 **This Week:** Python automation & AWS SDK
@@ -84,11 +114,10 @@ Production-grade static website infrastructure with CloudFront CDN demonstrating
 
 ## 🎯 Upcoming Portfolio Projects
 
-### Projects 2-3: Serverless Applications (Weeks 4-5)
-- [ ] URL Shortener (Lambda + DynamoDB + API Gateway)
+### Project 3: Serverless Applications (Week 5)
 - [ ] Automated Image Processor (S3 events + Lambda + Rekognition)
 
-**Demonstrates:** Event-driven architecture, serverless computing, NoSQL design, REST API development
+**Demonstrates:** Event-driven architecture, serverless computing, image processing at scale
 
 ### Projects 4-5: Multi-Tier Architecture (Weeks 6-7)
 - [ ] High-Availability Web App (ALB + Auto Scaling + RDS Multi-AZ)
