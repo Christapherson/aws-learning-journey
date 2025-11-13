@@ -1,4 +1,4 @@
-# Day 21: Project #4 - High Availability Web Application with Application Load Balancer
+# Project #4 - High Availability Web Application with Application Load Balancer
 
 **Date:** November 13, 2025  
 **Focus:** Multi-AZ Web Architecture, Application Load Balancer, RDS Integration  
